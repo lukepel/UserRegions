@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A39DB2C11C1EBE97002ECA04 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39DB2C01C1EBE97002ECA04 /* ThirdViewController.swift */; };
+		A3B2073F1C1F297500A574A9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B2073E1C1F297500A574A9 /* MapViewController.swift */; };
+		A3EB4EAE1C1AF06F00B02776 /* SecondViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB4EAD1C1AF06F00B02776 /* SecondViewContoller.swift */; };
 		D55E78B61BDE25AD00435769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55E78B51BDE25AD00435769 /* AppDelegate.swift */; };
 		D55E78B81BDE25AD00435769 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55E78B71BDE25AD00435769 /* ViewController.swift */; };
 		D55E78BB1BDE25AD00435769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55E78B91BDE25AD00435769 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		D55E78C01BDE25AD00435769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55E78BE1BDE25AD00435769 /* LaunchScreen.storyboard */; };
 		D55E78CB1BDE25AE00435769 /* UserRegionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55E78CA1BDE25AE00435769 /* UserRegionsTests.swift */; };
 		D55E78D61BDE25AE00435769 /* UserRegionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55E78D51BDE25AE00435769 /* UserRegionsUITests.swift */; };
+		D55E78E51BDE28A300435769 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55E78E41BDE28A300435769 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A39DB2C01C1EBE97002ECA04 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		A3B2073E1C1F297500A574A9 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A3EB4EAD1C1AF06F00B02776 /* SecondViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewContoller.swift; sourceTree = "<group>"; };
 		D55E78B21BDE25AD00435769 /* UserRegions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserRegions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55E78B51BDE25AD00435769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D55E78B71BDE25AD00435769 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,8 @@
 		D55E78D11BDE25AE00435769 /* UserRegionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserRegionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55E78D51BDE25AE00435769 /* UserRegionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegionsUITests.swift; sourceTree = "<group>"; };
 		D55E78D71BDE25AE00435769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55E78E31BDE270F00435769 /* Bournemouth-Route.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Bournemouth-Route.gpx"; sourceTree = "<group>"; };
+		D55E78E41BDE28A300435769 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55E78E51BDE28A300435769 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +87,7 @@
 		D55E78A91BDE25AC00435769 = {
 			isa = PBXGroup;
 			children = (
+				D55E78E41BDE28A300435769 /* MapKit.framework */,
 				D55E78B41BDE25AD00435769 /* UserRegions */,
 				D55E78C91BDE25AE00435769 /* UserRegionsTests */,
 				D55E78D41BDE25AE00435769 /* UserRegionsUITests */,
@@ -98,8 +109,12 @@
 			isa = PBXGroup;
 			children = (
 				D55E78B51BDE25AD00435769 /* AppDelegate.swift */,
-				D55E78B71BDE25AD00435769 /* ViewController.swift */,
+				D55E78E31BDE270F00435769 /* Bournemouth-Route.gpx */,
 				D55E78B91BDE25AD00435769 /* Main.storyboard */,
+				A3B2073E1C1F297500A574A9 /* MapViewController.swift */,
+				D55E78B71BDE25AD00435769 /* ViewController.swift */,
+				A3EB4EAD1C1AF06F00B02776 /* SecondViewContoller.swift */,
+				A39DB2C01C1EBE97002ECA04 /* ThirdViewController.swift */,
 				D55E78BC1BDE25AD00435769 /* Assets.xcassets */,
 				D55E78BE1BDE25AD00435769 /* LaunchScreen.storyboard */,
 				D55E78C11BDE25AD00435769 /* Info.plist */,
@@ -255,7 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3EB4EAE1C1AF06F00B02776 /* SecondViewContoller.swift in Sources */,
 				D55E78B81BDE25AD00435769 /* ViewController.swift in Sources */,
+				A39DB2C11C1EBE97002ECA04 /* ThirdViewController.swift in Sources */,
+				A3B2073F1C1F297500A574A9 /* MapViewController.swift in Sources */,
 				D55E78B61BDE25AD00435769 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +501,7 @@
 				D55E78DC1BDE25AE00435769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D55E78DD1BDE25AE00435769 /* Build configuration list for PBXNativeTarget "UserRegionsTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +510,7 @@
 				D55E78DF1BDE25AE00435769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D55E78E01BDE25AE00435769 /* Build configuration list for PBXNativeTarget "UserRegionsUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +519,7 @@
 				D55E78E21BDE25AE00435769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
